@@ -1,1 +1,2 @@
-# Template Ansible Role
+# Ansible Role Wiz
+- Installs wicli
