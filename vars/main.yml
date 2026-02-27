@@ -5,4 +5,3 @@ wiz_installed_exe: '{{ wiz_install_dir }}/wizcli'
 wiz_installed_link: '{{ wiz_parent_install_dir }}/bin/wizcli'
 
 wiz_arch: '{{ wiz_ansible_arch_to_download_arch[ansible_architecture] }}'
-wiz_url: 'https://downloads.wiz.io/wizcli/{{ wiz_ver }}/wizcli-{{ wiz_os }}-{{ wiz_arch }}'
