@@ -1,6 +1,6 @@
 ---
 # defaults file for azure-blob-cli
-wiz_ver: 1.73.0
+wiz_ver: 1.74.0
 wiz_parent_install_dir: /usr/local
 wiz_os: linux
 
