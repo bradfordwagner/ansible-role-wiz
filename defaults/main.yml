@@ -1,5 +1,6 @@
 ---
 # defaults file for azure-blob-cli
+# renovate: datasource=custom.wizcli depName=wizcli
 wiz_ver: 1.80.0
 wiz_parent_install_dir: /usr/local
 wiz_os: linux

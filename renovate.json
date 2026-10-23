@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>bradfordwagner/renovate:ansible-role"],
+  "customDatasources": {
+    "wizcli": {
+      "defaultRegistryUrlTemplate": "https://downloads.wiz.io/v1/wizcli/manifest.json",
+      "transformTemplates": [
+        "{\"releases\": [$distinct($.Key[$match($, /^v1\\/wizcli\\/\\d+\\.\\d+\\.\\d+\\/wizcli-linux-amd64$/)].$split($, '/')[2]).{\"version\": $}]}"
+      ]
+    }
+  }
+}
